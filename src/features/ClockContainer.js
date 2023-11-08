@@ -41,7 +41,7 @@ function ClockContainer() {
   function statusCallback(status) {
     let newStatus = status === 'session' ? 'break' : 'session';
     setStatus(newStatus);
-    return newStatus;
+    return newStatus; // Return value to push to functions relying on synchronous response
   }
 
   function handlePaused() {
