@@ -12,6 +12,14 @@ h3 {
   font-weight: bold;
 }
 
+#session-decrement, #break-decrement {
+  margin-right: 5px;
+}
+
+#session-increment, #break-increment {
+  margin-left: 5px;
+}
+
 .App {
   display: flex;
   justify-content: center;

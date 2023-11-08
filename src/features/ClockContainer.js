@@ -6,7 +6,7 @@ function IncrementElement(props) {
     <div className='incrementer'>
       <h3 id={`${props.id}-label`}>{props.label}</h3>
       <button id={`${props.id}-decrement`} onClick={() => {props.callback('decrement', props.value)}}>-</button>
-      <span id={`${props.id}-length`} > {props.value} </span>
+      <span id={`${props.id}-length`} >{props.value}</span>
       <button id={`${props.id}-increment`} onClick={() => {props.callback('increment', props.value)}}>+</button>
     </div>
   );
